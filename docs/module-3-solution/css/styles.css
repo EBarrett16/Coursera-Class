@@ -1,0 +1,88 @@
+/* BASE STYLES */ 
+
+* {
+  box-sizing: border-box;
+  font-family: serif,sans-serif, helvetica;
+}
+body{ 
+	font-size: 16px;
+	color: #fff;
+}
+
+#collapsable-nav {
+	clear
+
+}
+.container, .page-background{ 
+	margin: 0;
+	width: fit-content;
+}
+
+/*HEADER*/
+
+#header-nav { 
+	background-color: #E6E6E6;
+	border-radius: 0;
+	border: 0;
+}
+
+.navbar-header, #header-custom {
+	border: 2px black solid;
+	background-color: lightgreen;
+	margin-left: -15px;
+	margin-right: -15px;
+	width: 100%;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: serif;
+  color: black;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+  text-decoration: none;
+}
+
+.dropdown-item{
+	background-color: whitesmoke;
+	border: 1px black;
+	color: black;
+	font-size: 1.25em;
+	height: 80%;
+	padding-bottom: 10px;
+
+}
+
+/*MAIN CONTENT*/ 
+
+#Our-Menu {
+	color: black;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	font-size: 2.5em;
+}
+
+.menu-item{
+	background-color: darkgrey;
+}
+
+.break-point{
+	margin-left: -15px;
+	background-color: #E6e6e6;
+	height: 15px;
+	width: 120%;
+}
+.sushi-container{
+	height: 1000px;
+}
+#container{
+	font-size: 2em;
+	color: black;
+}
+#long-text{
+	color: white;
+	font-size: 0.5em;
+}
